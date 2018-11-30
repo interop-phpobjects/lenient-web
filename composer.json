@@ -1,0 +1,16 @@
+{
+    "name": "interop-phpobjects/lenient-web",
+    "type": "library",
+    "description": "Interoperability of interfaces around the Web",
+    "keywords": ["web","interop","interoperability"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Interop\\Lenient\\Web\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

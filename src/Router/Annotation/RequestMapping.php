@@ -28,6 +28,11 @@ interface RequestMapping
     public $middlewares;
 
     **
+     * @var map<string> Middleware option arguments
+     *
+    public $options;
+
+    **
      * @var string View name
      *
     public $view;

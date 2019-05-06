@@ -7,4 +7,9 @@ namespace Interop\Lenient\Web\Router\Annotation;
  */
 interface Controller
 {
+    /*
+     * @var vender options.
+     *
+    public $value;
+    */
 }
